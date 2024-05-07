@@ -1,0 +1,312 @@
+.header{
+    display:flex;
+    padding-top: 2%;
+}
+.logo-div{
+    flex:1;
+}
+.logo{
+    width:100%;
+    padding: 20px 0 0 50px;
+}
+.navbar{
+    flex:7
+}
+
+.list1{
+    list-style-type: none; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    padding-right: 80px;
+    
+}
+li{
+    float: left;
+    padding: 0px 15px;
+    font-size: 17px;
+    color: black;
+    margin-right: 17px;
+}
+.fa-solid{
+  padding-right: 19px;
+}
+li:hover{
+  color:#00629a;
+}
+.fa-solid:hover{
+    color:#00629a;  
+}
+
+.bindia{
+    font-size: 105%;
+    font-family: boschsans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: right;
+    padding-right:70px;
+    
+}
+
+.topcolorline
+{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+
+.section-one{
+    display:flex;
+    gap:130px;
+}
+.first-half{
+    flex:8;
+}
+.first-half img{
+    width:113%;
+}
+.second-half{
+    flex:4;
+    padding-right:px;
+}
+.second-half img{
+    width:100%;
+}
+.mobility{
+    text-decoration: none;
+    color:#1480be; 
+    font-family: boschsans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2;
+    
+    
+}
+.mobility:hover{
+    text-decoration: underline;  
+  }
+
+  .compass{
+    font-size: 410%; 
+    font-family: boschsans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.compass:hover{
+  color:#00629a;  
+}
+.prod{
+    text-decoration: none;
+    color: black;
+    
+    font-family: boschsans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 200%;
+    
+
+}
+.prod:hover{
+  color:#00629a;  
+}
+.findwaytwo{
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-left: 5%;
+    padding-top: 120px;
+}
+.imgt{
+    width: 260px;
+    margin-left: 2%;
+}
+
+.imagesthree{
+    margin-left: 3%;
+}
+.athome{
+    font-family:boschsans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.list2{
+    list-style-type: none;
+     
+}
+.headings{
+  display: flex;
+  margin-left: 5%;
+  font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  cursor: pointer;
+}
+.head1{
+    flex: 1;
+}
+.head2{
+    flex: 1;
+    margin-left: 9%;
+}
+.head3{
+    flex: 3;
+    margin-left: 8%;
+}
+.headings:hover{
+    color:#00629a;  
+}
+.para{
+    display: flex;
+    margin-left: 5%;
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+  }
+  .para1{
+      flex: 1;
+  }
+  .para2{
+      flex: 1;
+      margin-left: 9%;
+  }
+  .para3{
+      flex: 3;
+      margin-left: 8%;
+  }
+  .para:hover{
+      color:#00629a;  
+  }
+  .imgtt{
+    width: 260px;
+    margin-left: 2%;
+}
+
+.imagesthreetwo{
+    margin-left: 3%;
+    padding-top: 15%;
+}
+.headings2{
+    display: flex;
+    margin-left: 5%;
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+  }
+  .headings2:hover{
+    color:#00629a;  
+}
+.last{
+    display: flex;
+}
+.contactform{
+    max-width: 70.75rem;
+    padding: 3rem 1.5rem 2rem;
+    margin-left: 29px;
+    display: flex;
+    background-color: #eff1f2;
+    margin-top: 13%;
+    gap: 3%;
+    font-size: small;
+    padding: 1%;
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.fax{
+    flex: 3;
+    padding: 3%;
+}
+.chat{
+    padding: 3%;
+    flex: 3;
+}
+.message{
+    flex: 3;
+    padding: 3%;
+}
+.ep{
+    display: flex;
+    gap: 5%;
+    max-width: 73.81rem;
+    height: 18rem;
+    padding: 3rem 1.5rem 2rem;
+    margin-left: 2px;
+
+}
+.partner{
+    flex: 5;
+    background-color: #1480be;
+    color: aliceblue;
+}
+.employment{
+    flex: 5;
+    background-color: #1480be;
+    color: aliceblue;
+}
+.still{
+    display: flex;
+    padding-bottom: 6%;
+    color:aliceblue;
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 90%;
+    
+    
+}
+.looking{
+    flex: 5;
+}
+.search{
+    flex: 5;
+}
+body{
+    margin: 0;
+    font-family: boschsans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.invented{
+    display: flex;
+    color: aliceblue;
+}
+.inv{
+    flex: 10;
+    padding-bottom: 1%;
+
+}
+.fa-brands{
+    flex: 1;
+    padding-top: 2%;
+}
+.bottomg{
+    display: flex;
+    color: aliceblue;
+    
+}
+
+.bottomg1{
+    flex: 1;
+}
+.bottomg2{
+    flex: 1;
+}
+.bottomg3{
+    flex: 1;
+}
+.bottomg4{
+    flex: 1;
+}
+.bottomg5{
+    flex: 1;
+}
+.footercontainer{
+    background-color:rgba(0, 0, 0, 0.822);
+}
+.bottomline{
+    display: flex;
+    color: aliceblue;
+    font-size: 69%;
+    padding-right: 20%;
+}
+.bottoml2{
+    flex: 1;
+}
+.bottoml3{
+    flex: 1;
+}
+.bottoml4{
+    flex: 1;
+}
+.bottoml5{
+    flex: 1;
+}
+.bottoml1{
+    flex: 1;
+}
+
+
